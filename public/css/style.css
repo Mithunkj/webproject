@@ -1,0 +1,27 @@
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+h1{
+    color: red;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+li{
+    padding: 10px;
+}
+
+/*footer start*/
+.footer{
+    background-color: #0a183d;
+    height: 50px;
+    margin-top: auto;/*footer fixed in buttom */
+}
